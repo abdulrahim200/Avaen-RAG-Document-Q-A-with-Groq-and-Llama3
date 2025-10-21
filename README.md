@@ -38,3 +38,40 @@ It offers a choice between **OpenAI** and **Hugging Face** models for creating t
 ```bash
 git clone <your-repository-url>
 cd <your-repository-name>
+## ⚙️ Setup and Installation
+```
+### 2. Create a Virtual Environment
+It’s recommended to use a virtual environment to manage project dependencies.
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+### 3. Install Dependencies
+
+Install all the required Python packages using the `requirements.txt` file.
+
+```bash
+pip install -r requirements.txt
+```
+### 4. Set Up Environment Variables
+
+Create a file named `.env` in the root directory and add your API keys:
+
+```bash
+GROQ_API_KEY="your-groq-api-key"
+OPENAI_API_KEY="your-openai-api-key"   # Required if using OpenAI embeddings
+HF_TOKEN="your-huggingface-token"      # Required if using Hugging Face embeddings
+```
+### 5. Add Your Documents
+
+Create a folder named `research_papers` in the root directory and place all your **PDF files** inside it.
+## 🚀 Usage
+
+Once the setup is complete, run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+Then navigate to the local URL provided by Streamlit (usually http://localhost:8501).
+
