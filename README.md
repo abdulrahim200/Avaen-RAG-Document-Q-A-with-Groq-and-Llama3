@@ -36,7 +36,7 @@ It offers a choice between **OpenAI** and **Hugging Face** models for creating t
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/abdulrahim200/Avaen-RAG-Document-Q-A-with-Groq-and-Llama3>
 cd <your-repository-name>
 ## ⚙️ Setup and Installation
 ```
